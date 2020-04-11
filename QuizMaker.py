@@ -85,7 +85,7 @@ class Maker():
         left = int(self.background_rect.right * .0425)
         top = int(self.background_rect.bottom * .15)
         right = int(self.background_rect.right * .0425)
-        bottom = int(self.background_rect.bottom * .125)
+        bottom = int(self.background_rect.bottom * .085) # Original: .125
         print('[%s] Padding: [L: %d, T: %d, R: %d, B: %d]' % (self.filename, left, top, right, bottom))
         return Rect(left, top, right, bottom)
 
